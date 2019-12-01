@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
 import questIcon from '../assets/icon-quest.svg'
 import questIconActive from '../assets/icon-quest-active.svg'
 import itemIcon from '../assets/icon-item.svg'
@@ -36,15 +35,7 @@ const NavWrapper = styled.div`
   ${space};
 `
 
-const Nav = props => {
-  const [active, setActive] = useState('/')
-
-  function isActive({ isCurrent, href, location, isPartiallyCurrent }) {
-    if (isCurrent) {
-      setActive(href)
-    }
-  }
-
+const Nav = () => {
   return (
     <NavWrapper
       pt={['0', '12px']}

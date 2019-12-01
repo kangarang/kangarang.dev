@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { typography, color, flexbox } from 'styled-system'
+import { typography, color } from 'styled-system'
 
 import ghIcon from '../assets/github.svg'
 import twIcon from '../assets/twitter.svg'
@@ -8,7 +8,6 @@ import liIcon from '../assets/linkedin.svg'
 import emIcon from '../assets/email.svg'
 import Title from '../components/Title'
 import Layout from '../components/Layout'
-import Box from '../components/Box'
 import SEO from '../components/seo'
 
 const Summary = styled.div`
@@ -30,7 +29,7 @@ const Icon = styled.img`
   width: 35px;
 `
 
-const IndexPage = props => {
+const IndexPage = () => {
   return (
     <Layout>
       <SEO title="System" />

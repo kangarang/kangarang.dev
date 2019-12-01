@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Card from '../components/Card'
 import { theme } from '../theme'
+import Card from '../components/Card'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import Title from '../components/Title'
@@ -14,7 +14,7 @@ const Container = styled.div`
   }
 `
 
-const Quest = props => {
+const Quest = () => {
   return (
     <Layout>
       <SEO title="Quest" />
