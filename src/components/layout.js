@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import { space, flexbox } from 'styled-system'
-import './layout.css'
+import './styles.css'
 import { theme, colors } from '../theme'
 import Nav from './Nav'
 

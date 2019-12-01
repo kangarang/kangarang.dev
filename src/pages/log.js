@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { theme, colors } from '../theme'
 import Card from '../components/Card'
 import Layout from '../components/Layout'
-import SEO from '../components/seo'
+import SEO from '../components/Seo'
 import Title from '../components/Title'
 
 function Webs() {

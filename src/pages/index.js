@@ -8,7 +8,7 @@ import liIcon from '../assets/linkedin.svg'
 import emIcon from '../assets/email.svg'
 import Title from '../components/Title'
 import Layout from '../components/Layout'
-import SEO from '../components/seo'
+import SEO from '../components/Seo'
 
 const Summary = styled.div`
   font-family: 'Pragmata Pro';

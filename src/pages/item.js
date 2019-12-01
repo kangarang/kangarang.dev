@@ -6,7 +6,7 @@ import tsIcon from '../assets/ts.svg'
 import { theme } from '../theme'
 import Card from '../components/Card'
 import Layout from '../components/Layout'
-import SEO from '../components/seo'
+import SEO from '../components/Seo'
 import Title from '../components/Title'
 
 const Icon = styled.img`
