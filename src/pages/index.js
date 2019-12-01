@@ -1,21 +1,60 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import styled from 'styled-components'
+import { typography, color, flexbox } from 'styled-system'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import ghIcon from '../assets/github.svg'
+import twIcon from '../assets/twitter.svg'
+import liIcon from '../assets/linkedin.svg'
+import emIcon from '../assets/email.svg'
+import Title from '../components/Title'
+import Layout from '../components/Layout'
+import Box from '../components/Box'
+import SEO from '../components/seo'
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const Summary = styled.div`
+  font-family: 'Pragmata Pro';
+  font-size: 12px;
+  line-height: 1.1rem;
+  margin: 2rem 1rem;
+  ${typography};
+  ${color};
+`
+const ContactIcons = styled.div`
+  display: flex;
+  align-self: flex-start;
+  margin-left: 1rem;
+`
+const Icon = styled.img`
+  height: 35px;
+  margin-right: 30px;
+  width: 35px;
+`
+
+const IndexPage = props => {
+  return (
+    <Layout>
+      <SEO title="System" />
+      <Title mainText="ISAAC KANG" subText="Programmer" />
+      <Summary fontSize={[0, 1]} color="grey">
+        I build tools and applications for the Ethereum network. Currently I am working on the
+        Panvala team at ConsenSys.
+      </Summary>
+      <ContactIcons>
+        <a href="https://github.com/kangarang" target="_blank" rel="noopener noreferrer">
+          <Icon src={ghIcon} />
+        </a>
+        <a href="https://twitter.com/_kangarang" target="_blank" rel="noopener noreferrer">
+          <Icon src={twIcon} />
+        </a>
+        <a href="https://linkedin.com/in/isaackang" target="_blank" rel="noopener noreferrer">
+          <Icon src={liIcon} />
+        </a>
+        <a href="mailto:isaac.kang@protonmail.ch">
+          <Icon src={emIcon} />
+        </a>
+      </ContactIcons>
+    </Layout>
+  )
+}
 
 export default IndexPage
