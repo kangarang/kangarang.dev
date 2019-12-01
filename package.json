@@ -28,8 +28,7 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
+    "start": "gatsby serve",
     "clean": "gatsby clean"
   },
   "repository": {
