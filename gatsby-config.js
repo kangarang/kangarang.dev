@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Isaac Kang',
-    description: '',
+    description: 'kangarang.dev',
     author: `kangarang`,
   },
   plugins: [

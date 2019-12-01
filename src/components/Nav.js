@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { space } from 'styled-system'
 import questIcon from '../assets/icon-quest.svg'
 import questIconActive from '../assets/icon-quest-active.svg'
 import itemIcon from '../assets/icon-item.svg'
@@ -10,7 +11,6 @@ import systemIcon from '../assets/icon-system.svg'
 import systemIconActive from '../assets/icon-system-active.svg'
 import NavItem from './NavItem'
 import { colors } from '../theme'
-import { space } from 'styled-system'
 
 const NavWrapper = styled.div`
   display: flex;

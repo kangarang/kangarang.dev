@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled, { ThemeProvider } from 'styled-components'
 import { space, flexbox } from 'styled-system'
 import './layout.css'
@@ -36,10 +35,6 @@ const Layout = ({ children }) => {
       </ThemeProvider>
     </Wrapper>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout
