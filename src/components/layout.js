@@ -1,47 +1,40 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled, { ThemeProvider } from 'styled-components'
+import { space, flexbox } from 'styled-system'
+import './layout.css'
+import { theme, colors } from '../theme'
+import Nav from './Nav'
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+const Wrapper = styled.div`
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: ${colors.black};
 
-import Header from "./header"
-import "./layout.css"
+  @media (max-width: 40em) {
+    margin-bottom: 2rem;
+  }
+`
+
+const Main = styled.main`
+  display: flex;
+  flex-flow: column wrap;
+
+  ${flexbox};
+  ${space};
+`
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
-    </>
+    <Wrapper>
+      <ThemeProvider theme={theme}>
+        <Nav />
+        <Main p={['2rem 1rem', '6rem']} alignItems={['center', 'flex-start']}>
+          {children}
+        </Main>
+      </ThemeProvider>
+    </Wrapper>
   )
 }
 
@@ -50,3 +43,16 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+// function getTitleText(path) {
+//   switch (path) {
+//     case '/quest':
+//       return 'PROJECTS'
+//     case '/item':
+//       return 'CODE'
+//     case '/log':
+//       return 'BLOG'
+//     default:
+//       return ''
+//   }
+// }
