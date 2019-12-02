@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kangarang
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kangarang.dev
+  * I am kangarang (https://keybase.io/kangarang) on keybase.
+  * I have a public key ASD5rPzG8MF2WETbcIoqn1QYOZVgSpAjeYcbcYamfkJSlAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f9acfcc6f0c1765844db708a2a9f54183995604a902379871b7186a67e4252940a",
+      "host": "keybase.io",
+      "kid": "0120f9acfcc6f0c1765844db708a2a9f54183995604a902379871b7186a67e4252940a",
+      "uid": "48205999800c9ca51682591bf850a419",
+      "username": "kangarang"
+    },
+    "merkle_root": {
+      "ctime": 1575304483,
+      "hash": "8bc1484d8cfbfa90b3b32fb6a08bad838d24f5fd853a10278b603a5a8f3d61fd6e3a56a81b29490c6d077c0e9e8891e01d87e7580ac122c060a735d908cb7fe2",
+      "hash_meta": "6e9807d84cb531538bac3a9541071c2f81d101e8b27e470974cb35d7e6bf0f3d",
+      "seqno": 11789846
+    },
+    "service": {
+      "entropy": "fYoxqMJEeC6taZEi6oDwbJL3",
+      "hostname": "kangarang.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1575304489,
+  "expire_in": 504576000,
+  "prev": "bdbad9b47ce176088882ff239dd9f2471446a06711faa676befded327aa7ebbc",
+  "seqno": 38,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+az8xvDBdlhE23CKKp9UGDmVYEqQI3mHG3GGpn5CUpQKp3BheWxvYWTESpcCJsQgvbrZtHzhdgiIgv8jndnyRxRGoGcR+qZ2vv3tMnqn67zEIGPV4Sdo7k2H3Q2GPcXLUtCQtaQHNPO7+/J5cVlaJupFAgHCo3NpZ8RADkTmEGtDbOI73R8TnEPurAFCAh9/6silag1pLOgwzMRI2GNWr2/DFV5HCdNO3WlcblkNSoqDLneIZdHvoLB4CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGa34ahK3nQBPWuywwHc75GYINkAKUGjAt0AtUvCTI/wo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kangarang
+
+==================================================================
