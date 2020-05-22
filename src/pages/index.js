@@ -35,8 +35,8 @@ const IndexPage = () => {
       <SEO title="System" />
       <Title mainText="ISAAC KANG" subText="Programmer" />
       <Summary fontSize={[0, 1]} color="grey">
-        I build tools and applications for the Ethereum network. Currently I am working on the
-        Panvala team at ConsenSys.
+        I build tools and applications for the Ethereum network. Currently I am working on Treum at
+        ConsenSys.
       </Summary>
       <ContactIcons>
         <a href="https://github.com/kangarang" target="_blank" rel="noopener noreferrer">
