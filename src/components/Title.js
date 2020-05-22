@@ -10,7 +10,7 @@ const MainText = styled.div`
 `
 
 const SubText = styled.div`
-  font-family: 'Pragmata Pro';
+  font-family: 'Prag';
   font-size: 14px;
   color: #ffbf42;
 `

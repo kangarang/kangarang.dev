@@ -43,7 +43,7 @@ export const theme = {
   },
   fonts: {
     serif: 'Canela, athelas, georgia, times, serif',
-    mono: 'iosevka, "Fira Mono", andale',
+    mono: '"Fira Code", "Prag", Iosevka, andale',
     sansSerif:
       '-apple-system, BlinkMacSystemFont, roboto, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, noto, "segoe ui", arial, sans-serif',
   },

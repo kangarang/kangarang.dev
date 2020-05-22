@@ -15,7 +15,7 @@ import { colors } from '../theme'
 const NavWrapper = styled.div`
   display: flex;
   justify-content: space-evenly;
-  font-family: 'Fira Mono';
+  font-family: 'Fira Code';
   z-index: 5000;
   background-color: #111111;
 

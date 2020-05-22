@@ -11,7 +11,7 @@ import Layout from '../components/Layout'
 import SEO from '../components/Seo'
 
 const Summary = styled.div`
-  font-family: 'Pragmata Pro';
+  font-family: 'Prag';
   font-size: 12px;
   line-height: 1.1rem;
   margin: 2rem 1rem;

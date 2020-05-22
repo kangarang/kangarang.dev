@@ -64,7 +64,6 @@ const NavItem = ({ icon, iconActive, text, route }) => {
         />
         <Title
           active={active}
-          fontFamily="Fira Mono"
           fontSize={['13px', '18px']}
           m={['3px 0', '10px 0']}
         >

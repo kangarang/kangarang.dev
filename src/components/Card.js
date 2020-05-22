@@ -29,12 +29,12 @@ const Title = styled.div`
 `;
 const Description = styled.div`
   margin-top: 15px;
-  font-family: 'Pragmata Pro';
+  font-family: 'Prag';
   font-size: 12px;
   line-height: 1.5em;
 `;
 const More = styled.a`
-  font-family: 'Pragmata Pro';
+  font-family: 'Prag';
   font-size: 12px;
   text-decoration: none;
   color: #c4c4c4;
@@ -45,7 +45,7 @@ const More = styled.a`
 
 const Date = styled.div`
   margin-top: 5px;
-  font-family: 'Pragmata Pro';
+  font-family: 'Prag';
   font-style: italic;
   font-size: 12px;
 `;
